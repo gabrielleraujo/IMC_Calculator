@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang=en-uk>
+  <head>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <main class="container">
+      <h1><center>Calculate your IMC c:</center></h1>
+      <form>
+        <div class="container-weight-calculator">
+          <p>Enter your weight</p>
+          <!--
+          <input class="weight-slider" type="range"/>
+          -->
+          <input id="weight" class="input-number" type="number"/>
+          <span>kg</span>
+          
+        </div>
+        <div class="container-height-calculator">
+          <p>Enter your height</p>
+          <!--
+          <input class="height-slider" type="range"/>
+          -->
+          <input id="height" class="input-number" type="number"/>
+          <span>cm</span>
+        </div>
+        <input id="botoonCalculate" class="botoon-calculate" value="Calculate"/>
+      </form>
+
+      <div id="resultIMC"></div>
+      
+    </main>
+  </body>
+</html>

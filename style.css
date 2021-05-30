@@ -1,0 +1,82 @@
+:root {
+  --color-light-green: #CAFFB9;
+  --color-limon-green: #C0D461;
+  --color-medium-green: #66A182;
+  --color-deep-blue: #2E4057;
+}
+
+body {
+  background: var(--color-deep-blue);
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+  color: var(--color-light-green);
+}
+
+p {
+  padding: 10px;
+}
+
+.container {
+  background: var(--color-medium-green);
+  border: 1px solid var(--color-light-green);
+  border-radius: 5% 0% 5% 0%;
+  box-shadow: 0px 0px 5px;
+  padding: 8px;
+  width: 350px;
+  margin: 20px;
+}
+
+.container-weight-calculator, .container-height-calculator {  
+  margin-bottom: 1rem;
+  width:100%;
+  background-color: #ddd5;
+  font-weight: bold;
+  opacity: 0.9;
+}
+
+textarea:focus, input:focus {
+  box-shadow: 0 0 0 0;
+  outline: 0;
+}
+
+.input-number {
+  margin: 8px;
+  height: 30px;
+  width: 5rem;
+  border: none;
+  border-bottom: 2px solid gray;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 22px;
+  font-weight: bold;
+}
+.input-number:hover {
+  border-bottom: 2px solid var(--color-deep-blue);
+}
+
+.botoon-calculate {
+  background-color: var(--color-limon-green);
+  color: black;
+  margin-bottom: 2rem;
+  width: 5rem;
+  height: 2rem;
+  cursor: pointer;
+  border: none;
+  font-size: 1rem;
+  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  opacity: 0.7;
+}
+.botoon-calculate:hover {
+  opacity: 1;
+}
+
+#resultIMC {
+  color: var(--color-deep-blue);
+  font-weight: bold;
+}
+#resultIMC:hover {
+  color: black;
+}
